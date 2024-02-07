@@ -60,7 +60,7 @@ int main()
 
     int key;
 
-    cout << "Enter Key Element To Search --> ";
+    cout << "\nEnter Key Element To Search --> ";
     cin >> key;
 
     int count_duplicates = 0;
