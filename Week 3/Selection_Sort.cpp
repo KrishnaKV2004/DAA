@@ -30,12 +30,16 @@ void selectionSort(int arr[], int n)
 int main()
 {
     int t;
+    cout << "\nNumber Of Test Cases ? --> ";
     cin >> t;
     while (t--) 
     {
         int n;
+        cout << "\nNumber Of Elements ? --> ";
         cin >> n;
         int arr[n];
+
+        cout << "\nEnter Elements -->\n\n";
         for (int i = 0; i < n; i++)
             cin >> arr[i];
             
